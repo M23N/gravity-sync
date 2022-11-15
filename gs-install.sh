@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# GRAVITY SYNC BY VMSTAN #####################
+# GRAVITY SYNC BY M23N #####################
 # gs-install.sh ##############################
 
 # For documentation or downloading updates visit https://github.com/M23N/gravity-sync
@@ -172,7 +172,7 @@ if [ "$GS_DOCKER" != "1" ]; then
     else
         if hash docker 2>/dev/null; then
             echo -e "${GOOD} Docker installation has been detected"
-            FTLCHECK=$(sudo docker container ls | grep 'pihole/pihole')
+            FTLCHECK=$(sudo docker container ls | grep 'cbcrowe/pihole-unbound')
                 if [ "$FTLCHECK" != "" ]
                 then
                     echo -e "${GOOD} Docker container of Pi-hole has been detected"
@@ -182,7 +182,7 @@ if [ "$GS_DOCKER" != "1" ]; then
                 fi
         elif hash podman 2>/dev/null; then
             echo -e "${GOOD} Podman installation has been detected"
-            FTLCHECK=$(sudo podman container ls | grep 'pihole/pihole')
+            FTLCHECK=$(sudo podman container ls | grep 'cbcrowe/pihole-unbound')
                 if [ "$FTLCHECK" != "" ]
                 then
                     echo -e "${GOOD} Podman container of Pi-hole has been detected"

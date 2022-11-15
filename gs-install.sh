@@ -175,9 +175,9 @@ if [ "$GS_DOCKER" != "1" ]; then
             FTLCHECK=$(sudo docker container ls | grep 'cbcrowe/pihole-unbound')
                 if [ "$FTLCHECK" != "" ]
                 then
-                    echo -e "${GOOD} Docker container of Pi-hole has been detected"
+                    echo -e "${GOOD} Docker container of Pi-hole has been detected FLOWERS!!"
                 else
-                    echo -e "${WARN} There is no Docker container of Pi-hole running"
+                    echo -e "${WARN} There is no Docker container of Pi-hole running FARTS!!"
                     PHFAILCOUNT=$((PHFAILCOUNT+1))
                 fi
         elif hash podman 2>/dev/null; then

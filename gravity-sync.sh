@@ -152,7 +152,7 @@ function install_new_gravity {
     MESSAGE="Creating new GitHub cache"
     echo_prompt
 
-    sudo git clone https://github.com/vmstan/gravity-sync.git /etc/gravity-sync/.gs
+    sudo git clone https://github.com/M23N/gravity-sync.git /etc/gravity-sync/.gs
     
     # MESSAGE="Enabling beta updates"
     # echo_stat

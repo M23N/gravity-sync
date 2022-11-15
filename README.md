@@ -8,11 +8,11 @@
 
 </span>
 
-### [Find out what's new in version 4.0!](https://github.com/vmstan/gravity-sync/wiki/4.0)
+### [Find out what's new in version 4.0!](https://github.com/M23N/gravity-sync/wiki/4.0)
 
 What is better than a [Pi-hole](https://github.com/pi-hole/pi-hole) blocking trackers, advertisements, and other malicious domains on your network? That's right, **two** Pi-hole blocking all that junk on your network!
 
-- [Seriously. Why two Pi-hole?](https://github.com/vmstan/gravity-sync/wiki/Frequent-Questions#why-do-i-need-more-than-one-pi-hole)
+- [Seriously. Why two Pi-hole?](https://github.com/M23N/gravity-sync/wiki/Frequent-Questions#why-do-i-need-more-than-one-pi-hole)
 
 But if you have redundant Pi-hole in your network you'll want a simple way to keep the list configurations and local DNS settings identical between the two. That's where Gravity Sync comes in. Setup should only take a few minutes.
 
@@ -40,11 +40,11 @@ Gravity Sync will **not**:
 
 ## Setup Steps
 
-1. [Review System Requirements](https://github.com/vmstan/gravity-sync/wiki/System-Requirements)
-2. [Install Gravity Sync](https://github.com/vmstan/gravity-sync/wiki/Installing)
-3. [Configure Gravity Sync](https://github.com/vmstan/gravity-sync/wiki/Installing#configuration)
-4. [Execute Gravity Sync](https://github.com/vmstan/gravity-sync/wiki/Engaging)
-5. [Automate Gravity Sync](https://github.com/vmstan/gravity-sync/wiki/Automation)
+1. [Review System Requirements](https://github.com/M23N/gravity-sync/wiki/System-Requirements)
+2. [Install Gravity Sync](https://github.com/M23N/gravity-sync/wiki/Installing)
+3. [Configure Gravity Sync](https://github.com/M23N/gravity-sync/wiki/Installing#configuration)
+4. [Execute Gravity Sync](https://github.com/M23N/gravity-sync/wiki/Engaging)
+5. [Automate Gravity Sync](https://github.com/M23N/gravity-sync/wiki/Automation)
 
 ## Disclaimer
 
@@ -54,7 +54,7 @@ Pi-hole is and the Pi-hole logo are [registered trademarks](https://pi-hole.net/
 
 ## Additional Documentation
 
-Please refer to the [Wiki](https://github.com/vmstan/gravity-sync/wiki) for more information:
+Please refer to the [Wiki](https://github.com/M23N/gravity-sync/wiki) for more information:
 
-- [Frequently Asked Questions](https://github.com/vmstan/gravity-sync/wiki/Frequent-Questions)
-- [Changelog](https://github.com/vmstan/gravity-sync/wiki/Changelog)
+- [Frequently Asked Questions](https://github.com/M23N/gravity-sync/wiki/Frequent-Questions)
+- [Changelog](https://github.com/M23N/gravity-sync/wiki/Changelog)

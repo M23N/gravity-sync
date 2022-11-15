@@ -6,7 +6,7 @@ GS_RUN_START=$SECONDS
 PROGRAM='Gravity Sync'
 GS_VERSION='4.0.4'
 
-# For documentation or the changelog/updates visit https://github.com/vmstan/gravity-sync
+# For documentation or the changelog/updates visit https://github.com/M23N/gravity-sync
 # Requires Pi-Hole 5.x or higher already be installed, for help visit https://pi-hole.net
 
 # REQUIRED SETTINGS ##########################
@@ -1706,7 +1706,7 @@ function config_generate {
     
     echo_blank
     echo -e "  Welcome to the ${PURPLE}${PROGRAM}${NC} Configuration Wizard"
-    echo -e "  Please read through ${BLUE}https://github.com/vmstan/gravity-sync/wiki${NC} before you continue"
+    echo -e "  Please read through ${BLUE}https://github.com/M23N/gravity-sync/wiki${NC} before you continue"
     echo -e "  Make sure that ${UI_CORE_APP} is running on this system before your configure ${PROGRAM}"
     echo_blank
     
@@ -2029,7 +2029,7 @@ function show_version {
     MESSAGE="Running version: ${GREEN}${GS_VERSION}${NC} ${GS_DEV_VERSION}"
     echo_info
     
-    GS_GIT_VERSION=$(curl -sf https://raw.githubusercontent.com/vmstan/gravity-sync/master/VERSION)
+    GS_GIT_VERSION=$(curl -sf https://raw.githubusercontent.com/M23N/gravity-sync/master/VERSION)
     if [ -z "$GS_GIT_VERSION" ]; then
         MESSAGE="Latest version: ${RED}Unknown${NC}"
     else

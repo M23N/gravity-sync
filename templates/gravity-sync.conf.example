@@ -18,4 +18,4 @@ REMOTE_USER=''
 # REMOTE_DOCKER_CONTAINER=''				# Remote Pi-hole container name
 
 # HIDDEN FIGURES #############################
-# See https://github.com/vmstan/gravity-sync/wiki/Hidden-Figures
+# See https://github.com/M23N/gravity-sync/wiki/Hidden-Figures
